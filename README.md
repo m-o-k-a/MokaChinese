@@ -3,10 +3,10 @@
 # MokaChinese
  Node.js website to list chinese vocabulary
 
- # Goal
+# Goal
  Make a chinese word library with pinyin, meaning and HSK level (maybe stokes order later)
  
- # Built With 
+# Built With 
  - Dependency: [node.js](https://nodejs.org)
  - Framework: [express.js](https://expressjs.com/)
  - Template Engine: [mustache-express](https://www.npmjs.com/package/mustache-express)
@@ -16,14 +16,14 @@
 >  - npm install express.js
 >  - npm install mustache-express
  
- # Project Advancement
+# Project Advancement
 ** 23/02/2020**
 > launch of the project
 > Created group: personal-pronoun
 
 ------------
 
-#What is planned next
+# What is planned next
 - pages lists
 - research a chinese word
 - more group of words
@@ -32,7 +32,7 @@
 
 ------------
 
-#How search (will) work
+# How search (will) work
 - queries for a chinese word:
 > the idea is to convert the string given in an addition of unicode values using this function in ./scripts/convert.js:
 ```javascript
