@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://github.com/m-o-k-a/MokaChinese/)
 
 # MokaChinese
  Node.js website to list chinese vocabulary
