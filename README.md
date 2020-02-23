@@ -19,7 +19,7 @@
 # Project Advancement
 **23/02/2020**
 > launch of the project
-> Created group: personal-pronoun
+Created group: personal-pronoun
 
 ------------
 
