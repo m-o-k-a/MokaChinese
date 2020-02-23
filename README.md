@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/Project_Statut-Alpha-RED.svg)](https://github.com/m-o-k-a/MokaChinese/)
+[![Generic badge](https://img.shields.io/badge/Project_Statut-Alpha-RED.svg)](https://github.com/m-o-k-a/MokaChinese/) [![Generic badge](https://img.shields.io/badge/Website_Statut-Not Released-RED.svg)](https://github.com/m-o-k-a/MokaChinese/) ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
 # MokaChinese
  Node.js website to list chinese vocabulary
