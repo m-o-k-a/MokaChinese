@@ -1,5 +1,5 @@
-[![Generic badge](https://img.shields.io/badge/Project Project Statut-Alpha-red.svg)]
-[![Generic badge](https://img.shields.io/badge/Project Website Statut-Never uploaded-red.svg)]
+[![Generic badge](https://img.shields.io/badge/Project Project Statut-Alpha-red.svg)](https://github.com/m-o-k-a/MokaChinese)
+[![Generic badge](https://img.shields.io/badge/Project Website Statut-Never uploaded-red.svg)](https://github.com/m-o-k-a/MokaChinese)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]
 
 # MokaChinese
