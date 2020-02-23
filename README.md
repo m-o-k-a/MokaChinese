@@ -18,8 +18,8 @@
  
 # Project Advancement
 **23/02/2020**
-> launch of the project
-Created group: personal-pronoun
+> - launch of the project
+> - Created group: personal-pronoun
 
 ------------
 
