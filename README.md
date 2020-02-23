@@ -13,8 +13,8 @@
  
 >install and use in localhost:
 >first, install node.js, then install theses package in the root of the project:
-	- npm install express.js
-	- npm install mustache-express
+>  - npm install express.js
+>  - npm install mustache-express
  
  # Project Advancement
 ** 23/02/2020**
