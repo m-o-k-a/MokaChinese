@@ -21,6 +21,7 @@
 **24/02/2020**
 > - add styles
 > - add strokes
+
 **23/02/2020**
 > - launch of the project
 > - Created group: personal-pronoun
