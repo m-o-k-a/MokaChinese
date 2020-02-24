@@ -2,7 +2,7 @@
 
 # MokaChinese
  Node.js website to list chinese vocabulary
-
+![alpha Picture](./presentation1.png)
 # Goal
  Make a chinese word library with pinyin, meaning and HSK level (maybe stokes order later)
  
@@ -17,6 +17,9 @@
 >  - npm install mustache-express
  
 # Project Advancement
+**24/02/2020**
+> - add styles
+> - begin to add stroke order for simple words (have to work on a reference system when the word have many characters)
 **23/02/2020**
 > - launch of the project
 > - Created group: personal-pronoun

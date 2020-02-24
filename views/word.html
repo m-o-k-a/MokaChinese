@@ -2,16 +2,69 @@
 <html>
 <head>
 	<title>{{zh}} | MokaChinese</title>
+	<meta charset="UTF-8">
 </head>
 <body>
-	<h1>{{zh}} (HSK: {{level}})</h1>
-	<hr>
-	<p>
-		{{zh}}, ({{pinyin}})<br>
-		meaning: {{meaning}}
-	</p>
+	<div id="title-box">
+		<h1>V●ᴥ●V MokaChinese : word information</h1>
+	</div>
+	<div id="info-box-word">
+		<div>
+			<h1>{{zh}} (HSK: {{level}})</h1>
+			<hr>
+			<h2>{{zh}}, ({{pinyin}})</h2>
+			<h3>meaning: {{meaning}}</h3>
+		</div>
+		<div>
+			<img id="img-stroke" src="{{stroke}}"></img>
+		</div>
+	</div>
+	<a href="/{{group}}/"><div id="return-box-word">
+		<p> go back to {{group}} </p>
+	</div></a>
 </body>
-<footer>
-	<a href="/{{group}}/"><--{{group}}</a>
-</footer>
 </html>
+
+
+<style type="text/css">
+	body {
+		background-color: firebrick;
+	}
+	hr {
+    	border: 0;
+    	height: 1px;
+    	background-image: linear-gradient(to right, gold, rgba(0, 0, 0, 0));
+	}
+	a, a:visited { color: gold; text-decoration: none; }
+	h1, h2, h3, p { color: khaki; }
+	div { margin: 10px; }
+
+	#title-box {
+		background-color: crimson;
+		border-style: double;
+		border-color: gold;
+	}
+	#info-box-word, #return-box-word {
+		border-style: none dotted dotted dotted;
+		border-color: gold;
+		display: flex;
+  		flex-wrap: nowrap;
+	}
+	#return-box-word {
+  		width: -webkit-max-content;
+  		padding: 1px;
+  		background-color: ;
+	}
+	#return-box-word:hover {
+  		width: -webkit-max-content;
+  		padding: 1px;
+  		background-color: salmon;
+	}
+	#img-stroke {
+		background-color: white;
+		border-style: double;
+		border-color: gold;
+		max-width:100%;
+    	height:100%;
+	}
+</style>

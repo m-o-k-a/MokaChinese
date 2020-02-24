@@ -17,8 +17,7 @@ exports.read = function(filename, id) {
 	Read the list of a JSON
 */
 exports.groupList = function(filename) {
-  let groupList = Object.values(filename).sort((a, b) => a.id - b.id);
-  return groupList;
+  return JSON.parse(fs.readFileSync(filename));
 };
 
 

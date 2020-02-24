@@ -12,7 +12,6 @@ var personal_pronoun = './datas/personal_pronoun.json';
 
 //SERVER ROAD
 app.get('/personal-pronoun/', (req, res) => {
-	//TODO
 	res.render('group', convert.groupList(personal_pronoun));
 });
 app.get('/personal-pronoun/:id', (req, res) => {
