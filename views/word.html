@@ -15,9 +15,11 @@
 			<h2>{{zh}}, ({{pinyin}})</h2>
 			<h3>meaning: {{meaning}}</h3>
 		</div>
-		<div>
-			<img id="img-stroke" src="{{stroke}}"></img>
-		</div>
+		{{#strokes}}
+			<div>
+  				<li id="listStroke"><img id="img-stroke" src="{{.}}"></img></li>
+  			</div>
+		{{/strokes}}
 	</div>
 	<a href="/{{group}}/"><div id="return-box-word">
 		<p> go back to {{group}} </p>
@@ -38,6 +40,7 @@
 	a, a:visited { color: gold; text-decoration: none; }
 	h1, h2, h3, p { color: khaki; }
 	div { margin: 10px; }
+	#listStroke { list-style: none; }
 
 	#title-box {
 		background-color: crimson;

@@ -15,7 +15,7 @@ app.get('/personal-pronoun/', (req, res) => {
 	res.render('group', convert.groupList(personal_pronoun));
 });
 app.get('/personal-pronoun/:id', (req, res) => {
-	var data = convert.read(personal_pronoun, req.params.id);
+	var data = convert.readStrokes(personal_pronoun, req.params.id);
 	data["group"] = "personal-pronoun"
 	res.render('word', data);
 });

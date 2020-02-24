@@ -14,6 +14,20 @@ exports.read = function(filename, id) {
 };
 
 /*
+	Read the word and append its strokes images
+*/
+exports.readStrokes = function(filename, id, characterSet) {
+  let word = JSON.parse(fs.readFileSync(filename));
+  let characters = JSON.parse(fs.readFileSync('./datas/characters.json'));
+  if(id in word) {
+  	word[id]["strokes"] = characters[id];
+    return word[id];
+  } else {
+    return null;
+  }
+};
+
+/*
 	Read the list of a JSON
 */
 exports.groupList = function(filename) {
